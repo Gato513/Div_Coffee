@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* Seccion de menu */
+.article_menu_image{
+    background: center / cover url(../img/sample_menu_bg.png) fixed;
+}
+.section_menu_subtitle{
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+
+/* Estilos del Recommended menu */
+.recommended_menu_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 20px;
+}
+.recommended_menu_content li{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: white;
+    width: 49%;
+}
+.recommended_menu_content img{
+    width: 55%;
+    object-fit: cover;
+    height: 300px;
+    
+}
+.recommended_menu_content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+}
+
+/* Estilos de coffe menu */
+.coffe_menu_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+}
+.coffe_type_content{
+    width: 49%;
+}
+.firth_li{
+    margin-bottom: 20px;
+}
+.coffe_type_content li{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.coffe_type_content div{
+    width: 80%;
+    padding-left: 16px;
+}
+.coffee_menu_image{
+    width: 20%;
+    border-radius: 50%;
+}

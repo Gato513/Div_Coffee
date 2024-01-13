@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* Estilos del mapa de google */
+.content_dl{
+    display: flex;
+}
+.content_dl dt{
+    width: 80px;
+}
+iframe{
+    width: 100%;
+}
